@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	background: #000;
+	color: #5e5e5e;
+}
+.block {
+	font-family: Roboto Mono;
+	height: 95vh;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-clock {
+	margin-left: 28px;
+	text-transform: uppercase;
+	letter-spacing: 28px;
+}
+p, span {
+	transition: color 1s ease-out;
+	-ms-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -webkit-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+	font-size: 17px;
+	margin-bottom: -5px;
+}
+.c {
+	font-family: Roboto;
+	text-align: center;
+	font-size: 14px;
+	bottom: 0;
+}
+span.active {
+	color: #fff;
+	transition: color 1s ease-out;
+	-ms-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -webkit-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+}
